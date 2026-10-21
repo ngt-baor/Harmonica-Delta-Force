@@ -11,15 +11,15 @@ A Windows desktop app for managing harmonica scores and playing them in Delta Fo
 - Mouse-wheel scrolling in the song list moves about one song card per notch for smoother browsing.
 - The downloadable app is smaller because optional audio-to-score inference and GAME model files are omitted.
 
-## Download and run
+## Download and install
 
-[Download the latest Windows executable](https://github.com/ngt-baor/Harmonica-Delta-Force/releases/latest/download/Harmonica.Delta.Force.exe). The standalone executable does not require Python or a separate installer.
+[Download the latest Windows Setup installer](https://github.com/ngt-baor/Harmonica-Delta-Force/releases/latest/download/Harmonica.Delta.Force.exe). Run Setup to install the app for your Windows user. It creates a Start Menu shortcut; a desktop shortcut is optional. Python is not required.
 
 Choose a song from the library, or import a MIDI (`.mid` / `.midi`) or JSON score. Use **Nhập bản số** to add numbered notation. Adjust playback speed from the Compact Dock.
 
 - **F8**: pause or resume playback
 - **F9** or **Esc**: stop playback and release held keys
 
-The app keeps its settings and music library under `%APPDATA%\GTIHarmonica`. Replacing the executable preserves this user data. For portable use, create an empty `portable.txt` beside the executable.
+The app keeps its settings and music library under `%APPDATA%\GTIHarmonica`. Updating or uninstalling the app keeps this user data. For portable use, create an empty `portable.txt` beside the installed executable.
 
 The lightweight desktop release focuses on score import and playback; audio-to-score conversion and its GAME models are not included.
