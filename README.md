@@ -14,10 +14,10 @@ A Windows desktop app for managing harmonica scores and playing them in Delta Fo
 
 ## Download and install
 
-- [Tải bộ cài đặt Windows Setup (Harmonica.Delta.Force.Setup.0.2.4.exe)](https://github.com/ngt-baor/Harmonica-Delta-Force/releases/latest/download/Harmonica.Delta.Force.Setup.0.2.4.exe)
-- [Tải bản chạy trực tiếp (Harmonica.Delta.Force.exe)](https://github.com/ngt-baor/Harmonica-Delta-Force/releases/latest/download/Harmonica.Delta.Force.exe)
+- [Tải bộ cài đặt Windows Setup (Harmonica.Delta.Force.exe)](https://github.com/ngt-baor/Harmonica-Delta-Force/releases/latest/download/Harmonica.Delta.Force.exe)
+- [Tải bản chạy trực tiếp không cần cài đặt (Harmonica.Delta.Force.Portable.exe)](https://github.com/ngt-baor/Harmonica-Delta-Force/releases/latest/download/Harmonica.Delta.Force.Portable.exe)
 
-Khởi chạy Setup để cài đặt vào máy Windows (tự động tạo lối tắt Start Menu). Không cần cài đặt Python.
+Khởi chạy file Setup (`Harmonica.Delta.Force.exe`) để cài đặt vào máy Windows (tự động tạo lối tắt Start Menu). Không cần cài đặt Python.
 
 - **F8**: tạm dừng hoặc tiếp tục chơi nhạc
 - **F9** hoặc **Esc**: dừng chơi và nhả phím đàn
