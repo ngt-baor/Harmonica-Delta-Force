@@ -1,25 +1,25 @@
 # Harmonica Delta Force
 
-**Version 0.2.2**
+**Version 0.2.4**
 
 A Windows desktop app for managing harmonica scores and playing them in Delta Force.
 
-## What's new in 0.2.2
+## What's new in 0.2.4
 
-- The Compact Dock groups speed, playback, and add-music controls into a balanced layout.
-- The Play and Stop buttons are equal-sized and centered; disabled button text is easier to read.
-- Mouse-wheel scrolling in the song list moves about one song card per notch for smoother browsing.
-- The downloadable app is smaller because optional audio-to-score inference and GAME model files are omitted.
+- Tích hợp mục Kho nhạc trực tuyến (Delta Force Store) kết nối trực tiếp với Album trên website SheetToSky.
+- Người dùng có thể tìm kiếm, nghe thử bản nhạc trực tiếp và tải về máy chỉ với một lần bấm.
+- Tách rời nhạc mẫu khỏi bộ cài, giảm kích thước file thực thi xuống còn 25.4 MB (bộ cài Setup 27.0 MB).
+- Giao diện Store ở chế độ Rút gọn tích hợp trực tiếp trong cửa sổ chính, giữ cố định thanh player dock điều khiển ở cạnh dưới.
+- Bộ cài tự động bảo toàn 100% thư viện bài hát cá nhân của người dùng (`%APPDATA%\GTIHarmonica\songs`) khi nâng cấp.
 
 ## Download and install
 
-[Download the latest Windows Setup installer](https://github.com/ngt-baor/Harmonica-Delta-Force/releases/latest/download/Harmonica.Delta.Force.exe). Run Setup to install the app for your Windows user. It creates a Start Menu shortcut; a desktop shortcut is optional. Python is not required.
+- [Tải bộ cài đặt Windows Setup (Harmonica.Delta.Force.Setup.0.2.4.exe)](https://github.com/ngt-baor/Harmonica-Delta-Force/releases/latest/download/Harmonica.Delta.Force.Setup.0.2.4.exe)
+- [Tải bản chạy trực tiếp (Harmonica.Delta.Force.exe)](https://github.com/ngt-baor/Harmonica-Delta-Force/releases/latest/download/Harmonica.Delta.Force.exe)
 
-Choose a song from the library, or import a MIDI (`.mid` / `.midi`) or JSON score. Use **Nhập bản số** to add numbered notation. Adjust playback speed from the Compact Dock.
+Khởi chạy Setup để cài đặt vào máy Windows (tự động tạo lối tắt Start Menu). Không cần cài đặt Python.
 
-- **F8**: pause or resume playback
-- **F9** or **Esc**: stop playback and release held keys
+- **F8**: tạm dừng hoặc tiếp tục chơi nhạc
+- **F9** hoặc **Esc**: dừng chơi và nhả phím đàn
 
-The app keeps its settings and music library under `%APPDATA%\GTIHarmonica`. Updating or uninstalling the app keeps this user data. For portable use, create an empty `portable.txt` beside the installed executable.
-
-The lightweight desktop release focuses on score import and playback; audio-to-score conversion and its GAME models are not included.
+Dữ liệu cấu hình và thư viện nhạc cá nhân được lưu trữ tại `%APPDATA%\GTIHarmonica`. Cập nhật phiên bản mới sẽ giữ nguyên toàn bộ dữ liệu này.

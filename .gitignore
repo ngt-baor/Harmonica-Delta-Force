@@ -1,0 +1,9 @@
+# Executables and archives (distributed via GitHub Releases)
+*.exe
+*.zip
+*.7z
+
+# Environment & Editor
+.env*
+.idea/
+.vscode/
